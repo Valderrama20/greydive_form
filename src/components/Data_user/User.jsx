@@ -1,5 +1,5 @@
 import app from "../../credenciales"
-import {getFirestore, collection, addDoc,getDocs, doc, deleteDoc, getDoc,setDoc} from "firebase/firestore"
+import {getFirestore, doc, getDoc} from "firebase/firestore"
 import { useEffect, useState } from "react"
 import style from "./User.module.css"
 
