@@ -33,11 +33,7 @@ export default function Form  () {
         ...user
       })
       localStorage.setItem("ID", db_answer.id)
-      Swal.fire(
-        '¡Excelente!',
-        'Tu respuesta fue enviada',
-        'success'
-      )
+      Swal.fire('¡Excelente!','Tu respuesta fue enviada','success')
       setButton(true)
       setUser(init_user)
     } catch (error) {
