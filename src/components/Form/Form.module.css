@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
    background-repeat: no-repeat;
+   
 }
 
 .container{
@@ -42,8 +43,8 @@ body{
   0px 24.9px 25.7px rgba(0, 0, 0, 0.081),
   0px 43.5px 44.8px rgba(0, 0, 0, 0.096),
   0px 94px 97px rgba(0, 0, 0, 0.13);
-  margin-left: 80%;
   position: absolute;
+  right: 20px;
    top:20px;
   
   

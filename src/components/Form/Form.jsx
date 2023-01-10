@@ -53,7 +53,7 @@ export default function Form  () {
 
   return (<div className={style.container}>
      <h1>greydive Form</h1>
-    {button && <div className={style.button}><div><a href="/user">Revisar Informacion ➜</a></div></div>}
+    {button && <div className={style.button}><a href="/user">Revisar Informacion ➜</a></div>}
     <div>
       <form onSubmit={e => send_db(e)} className={style.form}>
 

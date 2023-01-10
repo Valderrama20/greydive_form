@@ -2,4 +2,65 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.data{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 40px 0 117px 0;
+    box-shadow:
+    0px 2.2px 2.2px rgba(0, 0, 0, 0.034),
+    0px 5.1px 5.2px rgba(0, 0, 0, 0.049),
+    0px 9.1px 9.4px rgba(0, 0, 0, 0.06),
+    0px 15.1px 15.6px rgba(0, 0, 0, 0.07),
+    0px 24.9px 25.7px rgba(0, 0, 0, 0.081),
+    0px 43.5px 44.8px rgba(0, 0, 0, 0.096),
+    0px 94px 97px rgba(0, 0, 0, 0.13);
+    min-width: 400px;
+    
+}
+.data label{
+    font-size: 25px;
+  
+    
+}
+
+.data p{
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.volver{
+    position: absolute;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 50px;
+    left: 20px;
+    top: 20px;
+    box-shadow:
+  0px 2.2px 2.2px rgba(0, 0, 0, 0.034),
+  0px 5.1px 5.2px rgba(0, 0, 0, 0.049),
+  0px 9.1px 9.4px rgba(0, 0, 0, 0.06),
+  0px 15.1px 15.6px rgba(0, 0, 0, 0.07),
+  0px 24.9px 25.7px rgba(0, 0, 0, 0.081),
+  0px 43.5px 44.8px rgba(0, 0, 0, 0.096),
+  0px 94px 97px rgba(0, 0, 0, 0.13);
+}
+
+.volver a{
+    text-decoration: none;
+    color: black;
+}
+
+.container h1{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 0 10px;
+    font-size: 50px;
 }

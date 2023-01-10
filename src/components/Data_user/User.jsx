@@ -21,6 +21,9 @@ const get_user = async (id) =>{
     return(<>
      {data ?
     <div className={style.container}>
+        <h1>Datos De Usuario</h1>
+        <div className={style.volver}><a href="/">🡐 Volver</a></div>
+        <div className={style.data}>
         <label htmlFor="">Nombre completo</label>
         <p>{data.full_name}</p>
         <label htmlFor="">Correo electrónico</label>
@@ -29,7 +32,8 @@ const get_user = async (id) =>{
         <p>{data.birth_date}</p>
         <label htmlFor="">País de origen</label>
         <p>{data.country_of_origin}</p>     
-        <button onClick={() => console.log(data)}></button> </div>
+         </div>
+           </div>
         :  <p>cagando</p>}
         </>)
 }
