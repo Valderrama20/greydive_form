@@ -1,6 +1,7 @@
 import app from "../../credenciales"
 import {getFirestore, doc, getDoc} from "firebase/firestore"
 import { useEffect, useState } from "react"
+import Loader from "../loader/Loader"
 import style from "./User.module.css"
 
 const db = getFirestore(app)
@@ -34,6 +35,6 @@ const get_user = async (id) =>{
         <p>{data.country_of_origin}</p>     
          </div>
            </div>
-        :  <p>cagando</p>}
+        :  <Loader/>}
         </>)
 }
